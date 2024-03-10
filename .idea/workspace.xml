@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="README.md 파일 작성">
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/ArithmeticOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example2/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example2/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,7 +68,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.calculateTest">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -149,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.calculateTest" />
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.calculateTest" />
         <item itemvalue="JUnit.CalculatorTest.subtractionTest" />
         <item itemvalue="JUnit.CalculatorTest.additionTest" />
         <item itemvalue="JUnit.UserTest.passwordTest2" />
@@ -166,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710036866828</updated>
       <workItem from="1710036868491" duration="5254000" />
-      <workItem from="1710072901685" duration="1772000" />
+      <workItem from="1710072901685" duration="4682000" />
     </task>
     <task id="LOCAL-00001" summary="TDD 활용한 사칙연산 계산 기능 구현">
       <created>1710073935591</created>
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710074003895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링">
+      <created>1710074739872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710074739872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TDD 활용한 사칙연산 계산 기능 구현" />
     <MESSAGE value="README.md 파일 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md 파일 작성" />
+    <MESSAGE value="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
