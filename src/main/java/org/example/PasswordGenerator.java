@@ -1,2 +1,5 @@
-package org.example;public interface PasswordGenerator {
+package org.example;
+
+public interface PasswordGenerator {
+    String generatePassword();
 }
