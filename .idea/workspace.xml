@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/ArithmeticOperator.java" afterDir="false" />
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="enum 을 활용한 사칙연산 계산 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/AdditionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/DivisionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/MultiplicationOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/NewArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/SubtractionOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/Calculator.java" afterDir="false" />
     </list>
@@ -23,9 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -73,7 +77,7 @@
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example2.*" />
+          <option name="PATTERN" value="org.example2.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +92,7 @@
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example2.*" />
+          <option name="PATTERN" value="org.example2.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +108,7 @@
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example2.*" />
+          <option name="PATTERN" value="org.example2.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,7 +124,7 @@
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example2.*" />
+          <option name="PATTERN" value="org.example2.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710036866828</updated>
       <workItem from="1710036868491" duration="5254000" />
-      <workItem from="1710072901685" duration="4682000" />
+      <workItem from="1710072901685" duration="5529000" />
     </task>
     <task id="LOCAL-00001" summary="TDD 활용한 사칙연산 계산 기능 구현">
       <created>1710073935591</created>
@@ -190,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710074739872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="enum 을 활용한 사칙연산 계산 리팩토링">
+      <created>1710078060013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710078060013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +222,8 @@
     <MESSAGE value="TDD 활용한 사칙연산 계산 기능 구현" />
     <MESSAGE value="README.md 파일 작성" />
     <MESSAGE value="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링" />
+    <MESSAGE value="enum 을 활용한 사칙연산 계산 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum 을 활용한 사칙연산 계산 리팩토링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
