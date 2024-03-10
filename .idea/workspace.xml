@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="enum 을 활용한 사칙연산 계산 리팩토링">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/AdditionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/DivisionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/MultiplicationOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/NewArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/SubtractionOperator.java" afterDir="false" />
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="인터페이스와 구현체를 사용한 계산 기능">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/PositiveNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/calculate/AdditionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/AdditionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/calculate/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/DivisionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/calculate/MultiplicationOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/MultiplicationOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/calculate/NewArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/NewArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/calculate/SubtractionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/SubtractionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example2/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example2/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.calculateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example2" />
+      <option name="MAIN_CLASS_NAME" value="org.example2.CalculatorTest" />
+      <option name="METHOD_NAME" value="calculateExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.calculateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -136,29 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.passwordTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserTest" />
-      <option name="METHOD_NAME" value="passwordTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateTest" />
         <item itemvalue="JUnit.CalculatorTest.subtractionTest" />
         <item itemvalue="JUnit.CalculatorTest.additionTest" />
-        <item itemvalue="JUnit.UserTest.passwordTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710036866828</updated>
       <workItem from="1710036868491" duration="5254000" />
-      <workItem from="1710072901685" duration="5529000" />
+      <workItem from="1710072901685" duration="6978000" />
     </task>
     <task id="LOCAL-00001" summary="TDD 활용한 사칙연산 계산 기능 구현">
       <created>1710073935591</created>
@@ -201,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710078060013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="인터페이스와 구현체를 사용한 계산 기능">
+      <created>1710078904514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710078904514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +232,8 @@
     <MESSAGE value="README.md 파일 작성" />
     <MESSAGE value="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링" />
     <MESSAGE value="enum 을 활용한 사칙연산 계산 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="enum 을 활용한 사칙연산 계산 리팩토링" />
+    <MESSAGE value="인터페이스와 구현체를 사용한 계산 기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="인터페이스와 구현체를 사용한 계산 기능" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
