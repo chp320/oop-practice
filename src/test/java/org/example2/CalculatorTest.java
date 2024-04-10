@@ -43,4 +43,11 @@ public class CalculatorTest {
         );
     }
 
+    // PositiveNum 이 무조건 '양수'임을 보장하기 때문에 아래 테스트 코드는 불필요
+//    @DisplayName("나눗셈에서 0을 나누는 경우 IllegalException 예외를 발생시킨다.")
+//    @Test
+//    void calculateExceptionTest() {
+//        assertThatCode(() -> Calculator.calculate(new PositiveNumber(10), "/", new PositiveNumber(0)))
+//                .isInstanceOf(IllegalArgumentException.class);
+//    }
 }
