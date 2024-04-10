@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="인터페이스와 구현체를 사용한 계산 기능">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example2/PositiveNumberTest.java" afterDir="false" />
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="사칙연산 테스트 코드 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example3/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example3/GradeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example3/CourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example3/GradeCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example2/calculate/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example2/calculate/DivisionOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example2/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example2/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,10 @@
     "JUnit.CalculatorTest.calculateExceptionTest.executor": "Run",
     "JUnit.CalculatorTest.calculateTest.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CourseTest.createTest.executor": "Run",
+    "JUnit.GradeCalculatorTest.calculateGradeTest.executor": "Run",
     "JUnit.PasswordValidatorTest.validatePasswordTest.executor": "Run",
+    "JUnit.PositiveNumberTest.createTest (1).executor": "Run",
     "JUnit.PositiveNumberTest.createTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,6 +78,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example3" />
       <recent name="org.example2" />
       <recent name="org.example" />
     </key>
@@ -84,49 +89,49 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PositiveNumberTest.createTest (1)">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GradeCalculatorTest">
+    <configuration name="CourseTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example2.calculate.*" />
+          <option name="PATTERN" value="org.example3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example2" />
-      <option name="MAIN_CLASS_NAME" value="org.example2.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.calculateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example2" />
-      <option name="MAIN_CLASS_NAME" value="org.example2.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculateExceptionTest" />
+      <option name="PACKAGE_NAME" value="org.example3" />
+      <option name="MAIN_CLASS_NAME" value="org.example3.CourseTest" />
+      <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.calculateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example2.calculate.*" />
+          <option name="PATTERN" value="org.example3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example2" />
-      <option name="MAIN_CLASS_NAME" value="org.example2.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculateTest(int,java.lang.String,int,int)" />
+      <option name="PACKAGE_NAME" value="org.example3" />
+      <option name="MAIN_CLASS_NAME" value="org.example3.GradeCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeCalculatorTest.calculateGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example3" />
+      <option name="MAIN_CLASS_NAME" value="org.example3.GradeCalculatorTest" />
+      <option name="METHOD_NAME" value="calculateGradeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeCalculatorTest" />
+        <item itemvalue="JUnit.GradeCalculatorTest.calculateGradeTest" />
+        <item itemvalue="JUnit.CourseTest.createTest" />
         <item itemvalue="JUnit.PositiveNumberTest.createTest (1)" />
         <item itemvalue="JUnit.PositiveNumberTest.createTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
-        <item itemvalue="JUnit.CalculatorTest.calculateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +196,7 @@
       <updated>1710036866828</updated>
       <workItem from="1710036868491" duration="5254000" />
       <workItem from="1710072901685" duration="6978000" />
-      <workItem from="1712750357097" duration="3750000" />
+      <workItem from="1712750357097" duration="6964000" />
     </task>
     <task id="LOCAL-00001" summary="TDD 활용한 사칙연산 계산 기능 구현">
       <created>1710073935591</created>
@@ -228,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710078904514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="사칙연산 테스트 코드 추가">
+      <option name="closed" value="true" />
+      <created>1712754223549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712754223549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +264,8 @@
     <MESSAGE value="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링" />
     <MESSAGE value="enum 을 활용한 사칙연산 계산 리팩토링" />
     <MESSAGE value="인터페이스와 구현체를 사용한 계산 기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="인터페이스와 구현체를 사용한 계산 기능" />
+    <MESSAGE value="사칙연산 테스트 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="사칙연산 테스트 코드 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
