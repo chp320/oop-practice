@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="요리, 요리사, 메뉴판 객체 생성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example4/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example4/MenuTest.java" afterDir="false" />
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="메뉴판 객체 생성">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example4/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example4/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example4/Cook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example4/Cooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example4/Cooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example4/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example4/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example4/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example4/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example4/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example4/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example4/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example4/MenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,23 +81,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest.chooseTest">
-    <configuration name="CookTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example4" />
-      <option name="MAIN_CLASS_NAME" value="org.example4.CookTest" />
-      <option name="METHOD_NAME" value="createTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CustomerTest">
     <configuration name="CookingTest.makeCookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -114,22 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example3" />
-      <option name="MAIN_CLASS_NAME" value="org.example3.GradeCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MenuItemTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +107,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example4" />
-      <option name="MAIN_CLASS_NAME" value="org.example4.MenuItemTest" />
-      <option name="METHOD_NAME" value="createTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example4.CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.orderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example4" />
+      <option name="MAIN_CLASS_NAME" value="org.example4.CustomerTest" />
+      <option name="METHOD_NAME" value="orderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,13 +145,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MenuTest.chooseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example4" />
+      <option name="MAIN_CLASS_NAME" value="org.example4.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.CustomerTest.orderTest" />
+        <item itemvalue="JUnit.MenuTest.chooseTest2" />
         <item itemvalue="JUnit.MenuTest.chooseTest" />
         <item itemvalue="JUnit.CookingTest.makeCookTest" />
-        <item itemvalue="JUnit.MenuItemTest.createTest" />
-        <item itemvalue="JUnit.CookTest.createTest" />
-        <item itemvalue="JUnit.GradeCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712962458765</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="메뉴판 객체 생성">
+      <created>1712963371560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712963371560</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +279,8 @@
     <MESSAGE value="일급 컬렉션을 활용한 리팩토링" />
     <MESSAGE value="ch03-05. 음식점에서 음식 주문하는 과정 구현 최초 등록" />
     <MESSAGE value="요리, 요리사, 메뉴판 객체 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="요리, 요리사, 메뉴판 객체 생성" />
+    <MESSAGE value="메뉴판 객체 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="메뉴판 객체 생성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
