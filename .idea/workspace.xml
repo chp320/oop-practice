@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="인터페이스와 구현체를 사용한 계산 기능">
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="GradeCalculatorTest 코드 수정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example3/Courses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example3/GradeCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example3/GradeCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example3/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example3/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example3/GradeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example3/GradeCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example3" />
       <recent name="org.example2" />
       <recent name="org.example" />
     </key>
@@ -72,22 +75,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example2.calculate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example2" />
-      <option name="MAIN_CLASS_NAME" value="org.example2.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GradeCalculatorTest">
     <configuration name="CalculatorTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -152,13 +140,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GradeCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example3" />
+      <option name="MAIN_CLASS_NAME" value="org.example3.GradeCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeCalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.subtractionTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
         <item itemvalue="JUnit.CalculatorTest.additionTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710078904514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GradeCalculatorTest 코드 수정">
+      <created>1712958562637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712958562637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +241,8 @@
     <MESSAGE value="Stream&lt;Arguments&gt; 를 활용한 테스트 코드 리팩토링" />
     <MESSAGE value="enum 을 활용한 사칙연산 계산 리팩토링" />
     <MESSAGE value="인터페이스와 구현체를 사용한 계산 기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="인터페이스와 구현체를 사용한 계산 기능" />
+    <MESSAGE value="GradeCalculatorTest 코드 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="GradeCalculatorTest 코드 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
