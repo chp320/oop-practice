@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="GradeCalculatorTest 코드 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example3/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example3/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example3/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example3/GradeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example3/GradeCalculator.java" afterDir="false" />
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="일급 컬렉션을 활용한 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example4/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712958562637</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="일급 컬렉션을 활용한 리팩토링">
+      <created>1712960987046</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712960987046</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +246,8 @@
     <MESSAGE value="enum 을 활용한 사칙연산 계산 리팩토링" />
     <MESSAGE value="인터페이스와 구현체를 사용한 계산 기능" />
     <MESSAGE value="GradeCalculatorTest 코드 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="GradeCalculatorTest 코드 수정" />
+    <MESSAGE value="일급 컬렉션을 활용한 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="일급 컬렉션을 활용한 리팩토링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
