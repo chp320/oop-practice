@@ -1,7 +1,7 @@
 # FastCampus self-study
 - 패스트캠퍼스 강의 - '나만의 MVC 프레임워크 만들기' 중 ch03.객체지향 패러다임 강의 테스트 코드
 
-## Chapter2
+## Chapter3
 - 비밀번호 유효성 검증 테스트 코드 작성
 - Junit5, Assertj 를 사용해서 테스트 코드 작성할 것임
 - Junit5 는 프로젝트 생성 시 기본 추가되는 항목이지만 assertj 는 신규로 의존성 추가해야 함
