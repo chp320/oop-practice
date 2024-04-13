@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="메뉴판 객체 생성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example4/Customer.java" afterDir="false" />
+    <list default="true" id="e28b5bc8-b8c6-49c2-a928-b706ecb86272" name="Changes" comment="메뉴 주문 테스트 코드 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example4/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example4/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example4/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example4/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example4/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example4/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example4/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example4/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +177,7 @@
       <updated>1710036866828</updated>
       <workItem from="1710036868491" duration="5254000" />
       <workItem from="1710072901685" duration="6978000" />
+      <workItem from="1713003449192" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="TDD 활용한 사칙연산 계산 기능 구현">
       <created>1710073935591</created>
@@ -252,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712963371560</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="메뉴 주문 테스트 코드 작성">
+      <created>1712964511692</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712964511692</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +284,8 @@
     <MESSAGE value="ch03-05. 음식점에서 음식 주문하는 과정 구현 최초 등록" />
     <MESSAGE value="요리, 요리사, 메뉴판 객체 생성" />
     <MESSAGE value="메뉴판 객체 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="메뉴판 객체 생성" />
+    <MESSAGE value="메뉴 주문 테스트 코드 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="메뉴 주문 테스트 코드 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
